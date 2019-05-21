@@ -1,0 +1,39 @@
+{
+  "commonChunks": {
+    "global": [
+      "default",
+      "vendors"
+    ],
+    "contractChunk": {
+      "chunks": [
+        "contract"
+      ]
+    },
+    "dateChunk": {
+      "chunks": [
+        "bootstrap-datetimepicker"
+      ]
+    }
+  },
+  "components": {
+    "contract": {
+      "test": "contract_",
+      "chunks": [
+        "contract",
+        "bootstrap-datetimepicker"
+      ]
+    },
+    "contractView": {
+      "test": "contractView|Dialog",
+      "extends": [
+        "dateChunk"
+      ]
+    },
+    "templates": {
+      "test": "templates",
+      "extends": [
+        "contractChunk"
+      ]
+    }
+  }
+}
