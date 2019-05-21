@@ -1,0 +1,2 @@
+#排除依赖包文件
+/node_modules
