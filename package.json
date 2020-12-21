@@ -22,7 +22,7 @@
     "jquery-placeholder": "^2.3.1",
     "less": "^3.0.1",
     "less-plugin-clean-css": "^1.5.1",
-    "node-notifier": "^5.2.1",
+    "node-notifier": "^8.0.1",
     "ora": "^2.0.0",
     "portfinder": "^1.0.13",
     "rimraf": "^2.6.2"
